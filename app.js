@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativa = 1;
 
@@ -12,7 +12,7 @@ responsiveVoice.speak(texto,"Brazilian Portuguese Female", {rate:1.2});
 
 function mensagemInicial() {
 alterarTextoNaTela('h1','Jogo da adivinhação');
-alterarTextoNaTela('p','escolha entre 1 e 100');
+alterarTextoNaTela('p','escolha entre 1 e 50');
 }
 
 function reiniciarJogo() {
